@@ -14,11 +14,12 @@ export default function Contact() {
   }
 
   return (
-    <section id="contact" className="py-20 bg-slate-800">
+    <section id="contact" className="py-20 bg-black">
       <div className="container mx-auto px-6">
         <h2 className="text-4xl font-bold text-center mb-16 text-white">Contact Me </h2>
+        <div className=" bg-slate-800 pt-12 pb-12 ml-96 mr-96 rounded-3xl">
         <form onSubmit={handleSubmit} className="max-w-md mx-auto">
-          <div className="mb-4">
+          <div className="mb-4 ">
             <label htmlFor="name" className="block text-white font-bold mb-2">Name</label>
             <input
               type="text"
@@ -56,6 +57,7 @@ export default function Contact() {
           </div>
           <button type="submit" className="w-full bg-white text-black py-3 px-7 rounded-md hover:bg-gray-300 transition duration-300">Send Message</button>
         </form>
+        </div>
       </div>
     </section>
   )
