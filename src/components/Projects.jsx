@@ -1,10 +1,14 @@
 import React from 'react'
 import snake from '../assets/snake-game.png'
 import gym from '../assets/gym-web.png'
+import portfolio from '../assets/my-portfolio.png'
+import glof from '../assets/glof.png'
 
 const projects = [
   { id: 1, title: 'Snake Game', description: 'A interactive snake game with leaderboard functionality', img : snake, link :"https://snake-game-adiijha.vercel.app/" },
   { id: 2, title: 'Gym Website', description: 'A Gym website landing page', img: gym, link: "https://adiijha.github.io/GymWeb-dtuproject/" },
+  {id: 3, title: 'Portfolio', description: 'My Personal basic Portfolio ', img:portfolio, link:"https://adii-kj-portfolio.vercel.app/" },
+  {id: 4, title: 'GLOF-Predicition System', description: 'A landing page for Machine Learning model to predict the GLOF', img: glof, link:"https://glof-prediction.vercel.app/" },
 ]
 
 export default function Projects() {
